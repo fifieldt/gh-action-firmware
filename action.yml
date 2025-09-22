@@ -36,7 +36,7 @@ runs:
           --env MT_OTA_FIRMWARE_SOURCE \
           --env MT_OTA_FIRMWARE_TARGET \
           --env PLATFORMIO_BUILD_DIR \
-          --user 1000:1000 \
+          --user 1001:1001 \
           -v $GITHUB_WORKSPACE:/workspace \
           ghcr.io/meshtastic/gh-action-firmware:master-${{ inputs.pio_platform }}
       shell: bash
